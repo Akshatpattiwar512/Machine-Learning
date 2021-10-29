@@ -22,4 +22,56 @@ Each batch, model weights are updated with a tiny amount of the error, which is 
 
 ## Fake_Currency_Detection
 
+Steps used:
+
+1.Loading data
+
+2.Visualization of target distribution and pairplot
+
+3.Splitting data into test and train data
+
+4. Using confusion matrix 
+
+5.Testing data using selecting random value from dataset
+
 Data link: https://raw.githubusercontent.com/Akshatpattiwar512/Datasets/master/banknote_authentication.csv
+
+## Glass_Type_Classification
+
+In this project , visualization classification is done on the basis of type of elements and the type of glass
+
+### Visualizations used: 
+
+1.Boxplot
+
+2.pairplot
+
+3.Univariate plot
+
+4.Heatmap
+
+### Preparation of data: 
+
+1.Data cleaning
+
+2.Removing multiple outliers
+
+### Distribution plotting of types
+
+### Splitting variation dataset
+
+### Transforming data
+
+### Evaluation of algorithm
+
+1.Dimensionality reduction: XGBoost, PCA
+
+2.Algorithm Tuning: Tuning random forest
+
+### Diagnose overfitting by plotting the learning and validation curves
+
+Dataset link: https://www.kaggle.com/uciml/glass
+
+## Iris_dataset_ML
+
+Dataset: Iris.csv
