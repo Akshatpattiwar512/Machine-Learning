@@ -106,3 +106,19 @@ This machine learning model focuses on ml using gradient boosting regressor and 
 Dataset taken from sklearn : 
 
 from sklearn.datasets import load_diabetes
+
+## For google colab
+
+! pip install kaggle
+
+! mkdir ~/.kaggle
+
+! cp kaggle.json ~/.kaggle/
+
+! chmod 600 ~/.kaggle/kaggle.json
+
+! kaggle datasets download < Dataset-name > 
+
+! unzip < zip-file >
+
+
