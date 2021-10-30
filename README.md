@@ -74,4 +74,35 @@ Dataset link: https://www.kaggle.com/uciml/glass
 
 ## Iris_dataset_ML
 
-Dataset: Iris.csv
+Plotting visualization graphs for different values of n for k-nearest neighbours
+
+Prediction is done using svc model
+
+For each model, confusion matrx, classification report, training and testing accuracy is calculated and tabulated in the table form for easy comparison
+
+Using hyperparameter tuning, training and testing is again done\
+
+FInally plotting is done for Random Forest XGBoost
+
+Dataset: Iris.csv ( https://github.com/Akshatpattiwar512/Machine-Learning/blob/main/Iris.csv )
+
+## Keras_fashion_mnist
+
+Layers and parameters are defined using sequential().
+Next fitting is done. 
+Fitting and normalizing is done( from 0-255 to 0-1. And a new model is made with 5 layers( More layers can be added).
+Compilation and evaluation is done
+
+Data imported from keras api using :
+
+!pip install keras
+
+from keras.datasets import fashion_mnist
+
+## Sklearn_diabetes_GradientBoostingRegressor
+
+This machine learning model focuses on ml using gradient boosting regressor and a convergence graph is plotted
+
+Dataset taken from sklearn : 
+
+from sklearn.datasets import load_diabetes
